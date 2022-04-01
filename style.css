@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    border: solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+input, select{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#resultado{
+    height: 30px;
+}
